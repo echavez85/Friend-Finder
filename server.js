@@ -9,7 +9,7 @@ var app = express();
 const PORT = process.env.PORT || 8080;
 
 // Set up Express to handle data parsing
-app.use(express.urlendcoded({ extended: true}));
+app.use(express.urlencoded({ extended: true}));
 app.use(express.json());
 
 // Router
